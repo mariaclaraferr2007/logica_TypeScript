@@ -34,31 +34,75 @@ Projeto desenvolvido em TypeScript com foco em praticar lógica de programação
 ## 🚀 Como Executar o Projeto
 
 1- Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/PraticaTypeScript.git
+    ```bash
+    
+    git clone https://github.com/seu-usuario/PraticaTypeScript.git
 
 2- Navegue até a pasta do projeto:
+     ```bash
 
-bash
-Copiar
-Editar
-cd PraticaTypeScript
-Instale o TypeScript (caso ainda não tenha):
+      cd PraticaTypeScript
 
-bash
-Copiar
-Editar
-npm install -g typescript
-Compile os arquivos:
+3- Instale o TypeScript (caso ainda não tenha):
+    ```bash
 
-bash
-Copiar
-Editar
-tsc
-Execute com Node.js:
+    npm install -g typescript
 
-bash
-Copiar
-Editar
-node dist/index.js
+4- Compile os arquivos:
+    ```bash
+
+    tsc
+
+5- Execute com Node.js:
+    ```bash
+
+    node dist/index.js
+
+---
+
+## 🛠 Estrutura do Projeto
+
+📁 src
+
+ ┣ 📜 index.ts → Ponto de entrada do projeto
+ 
+ ┣ 📜 exercicio1.ts → Funções e lógica do primeiro exercício
+ 
+ ┣ 📜 exercicio2.ts → Classes e herança
+ 
+ ┗ 📜 utils.ts → Funções auxiliares
+
+📁 dist → Arquivos compilados
+
+📜 tsconfig.json → Configurações do TypeScript
+
+📜 package.json → Dependências e scripts
+
+---
+
+## 💡 Aprendizados
+
+Este projeto reforça:
+
+- Escrita segura com tipos estáticos
+
+- Organização modular com export e import
+
+- Lógica com if, switch, for, while
+
+- Criação de classes, interfaces, enums
+
+- Compilação de .ts para .js usando tsc
+
+---
+
+## 👩‍💻 Autor
+
+Desenvolvido por Maria Clara Ferreira Lopes
+
+🎓 Estudante de Técnico em Informática - COTEMIG
+
+📧 Email: mariaclaraferreiralopes82@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/maria-clara-ferreira-lopes/
+
